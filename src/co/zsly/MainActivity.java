@@ -37,9 +37,10 @@ public class MainActivity extends DroidGap{
 	                    //finish();
 	            }
 	            if(item.getItemId()==3){
+	            	//Ë¢ÐÂ
 	            	//onBackPressed();
 	            	//super.goBack();
-	            	super.loadUrl("http://218.5.76.176/mobile/usercenter");
+	            	super.loadUrl("javascript:location.reload()");
 	            	//super.loadUrl("javascript:window.history.forward()");
                     //super.loadUrl("javascript:window.history.forward()");
 	            }
