@@ -19,13 +19,14 @@
     <gap:platforms> <!-- 注释：支持平台 -->
         <gap:platform name="android" minVersion="2.1" />
         <gap:platform name="webos" />
+        <gap:platform name="winphone" />
         <gap:platform name="symbian.wrt" />
         <gap:platform name="blackberry" project="widgets"/>
     </gap:platforms>
-    <icon src="icons/icon.png" gap:role="default" /> <!-- 注释：应用Logo，显示在移动终端桌面上和应用名称一起 -->
-    <gap:splash src="icons/splash.png"/> <!-- 注释： 程序启动时显示图像-->
+    <icon src="res/drawable-hdpi/icon.png" gap:role="default" /> <!-- 注释：应用Logo，显示在移动终端桌面上和应用名称一起 -->
+    <gap:splash src="res/drawable-hdpi/splash.png"/> <!-- 注释： 程序启动时显示图像-->
     <!--  程序需使用的Anbdroid权限
-    <feature name="http://api.phonegap.com/1.0/geolocation"/>
-    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.7/geolocation"/>
+    <feature name="http://api.phonegap.com/1.7/network"/>
     -->
 </widget>
