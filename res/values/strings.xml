@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">掌上龙岩</string>
+    <string name="hello">正在加载，请稍后……</string>
     <string name="sys_network_error">您的网络不可用哩，请检查一下您的网络状况吧!</string>
     <string name="com_dialog_title_quit">确认退出</string>
     <string name="sys_ask_quit_app">是否确认退出掌上龙岩？</string>
