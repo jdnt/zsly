@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>框架中的LOADING</title>
+</head>
+
+<body  onLoad="location.href = url;" >
+<script language="JavaScript">
+var url = 'http://218.5.76.176/mobile';
+</script>
+<div align=center>
+<font class=fontbig>页面加载中......
+<style><!--.proccess{border:1px solid;width:8;height:8;background:#ffffff;margin:3}--></style>
+<form method=post name=proccess>
+<script language=javascript>
+for(i=0;i<30;i++)document.write("<input class=proccess>")
+</script>
+</form>
+<script language=JavaScript>var p=0,j=0;
+var c=new Array("lightskyblue","white")
+setInterval('proccess();',100)
+function proccess(){
+document.forms.proccess.elements[p].style.background=c[j];
+p+=1;
+if(p==30){p=0;j=1-j;}}
+--></script>
+</div>
+
+<div align="center">
+<script>
+<!--
+if (document.layers)
+document.write('<Layer src="' + url + ' " VISIBILITY="hide"> </Layer>');
+else if (document.all || document.getElementById)
+document.write('<iframe src="' + url + '" style="visibility: hidden;"></iframe>');
+else location.href = url;
+//-->
+</script>
+</div>
+
+
+
+</body>
+</html>
